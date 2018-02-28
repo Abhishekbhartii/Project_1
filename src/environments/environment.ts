@@ -5,8 +5,8 @@
 
 export const environment = {
   production: false,
-  // Enable when debugging code locally
-  // allAtmUrl: 'http://localhost:3000/data',
+  // JSON server endpoint
+  allAtmUrl: 'http://localhost:3000/data',
   // REST API endpoint
-  allAtmUrl: 'http://localhost:8080/all-atms'
+  // allAtmUrl: 'http://localhost:8080/all-atms'
 };

@@ -1,0 +1,10 @@
+<h1>ING ATM Locator</h1>
+
+<div style="width: 50%">
+  <p-dataTable [value]="allAtms" [rows]="10" [paginator]="true" alwaysShow="false">
+    <p-column field="city" header="City" [filter]="true" filterPlaceholder="Type City"></p-column>
+    <p-column field="street" header="Street Name"></p-column>
+    <p-column field="housenumber" header="House number"></p-column>
+    <p-column field="postalcode" header="Postal code"></p-column>    
+  </p-dataTable>  
+</div>

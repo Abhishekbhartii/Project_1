@@ -12,7 +12,7 @@ Node version = v9.6.1
 TypeScript version = 2.2.0
 
 # Steps for running this project
-1.Clone the project to a local repository
+1.Clone the project to the location where you want the cloned directory to be made
 
 2.Install NPM (node_modules) using `npm install`
 
